@@ -36,9 +36,7 @@ body {
     cursor: pointer;
     user-select: none;
 }
-.cell:hover {
-    background-color: #e8d7ad;
-}
+
 .cell.active {
     background-color: #d4c49b;
 }
@@ -64,4 +62,7 @@ button:active {
 }
 #btn_start {
     min-width: 140px;
+}
+.white {
+    background-color: white;
 }
